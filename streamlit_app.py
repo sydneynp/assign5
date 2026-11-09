@@ -10,5 +10,5 @@ if not data.empty:
   overall_average = data['Close'].mean()
 # Print the result directly to the screen
 st.metric(label="5-Year Average Price", value=f"${overall_average:.2f}")
-else:
+  else:
 st.error("No data found for MSFT.")
